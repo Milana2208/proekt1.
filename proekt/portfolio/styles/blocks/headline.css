@@ -1,0 +1,76 @@
+.headline {
+    padding: 170px 0 220px;
+    background-color: #171718;
+    background-image: url("../../images/abstract.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.headline__box {
+    text-align: center;
+}
+
+.headline__title {
+    margin-bottom: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.333;
+    color: #FFFFFF;
+}
+
+.headline__title .bold {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.333;
+    color: #FFFFFF;
+}
+
+.headline__title .blue {
+    color: #5C62EC;
+}
+
+.headline__subtitle {
+    margin-bottom: 40px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.333;
+    color: #FFFFFF;
+}
+
+.headline__download {
+    padding: 12px 28px;
+    border-radius: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.333;
+    color: #FFFFFF;
+    background-color: #5C62EC;
+}
+
+@media (max-width: 626px) {
+    .headline {
+        padding: 40px 0 50px;
+    }
+
+    .headline__title {
+        margin-bottom: 20px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1.333;
+        color: #FFFFFF;
+    }
+
+    .headline__title .bold {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 1.333;
+        color: #FFFFFF;
+    }
+}

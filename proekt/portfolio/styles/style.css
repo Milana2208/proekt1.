@@ -1,0 +1,17 @@
+/*base*/
+@import "./base/base.css";
+@import "./base/reset.css";
+/*base*/
+
+/*blocks*/
+@import "./blocks/header.css";
+
+@import "./blocks/headline.css";
+@import "./blocks/projects.css";
+
+@import "./blocks/skills.css";
+
+@import "./blocks/contacts.css";
+
+@import "./blocks/footer.css";
+/*blocks*/

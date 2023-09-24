@@ -1,0 +1,51 @@
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+/*import fonts*/
+
+/*global container*/
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+    padding: 0 10px;
+}
+/*global container*/
+
+/*scrollbar none*/
+body::-webkit-scrollbar {
+    width: 0;
+}
+/*scrollbar none*/
+
+/*scroll smooth*/
+body {
+    scroll-behavior: smooth;
+}
+/*scroll smooth*/
+
+/*footer bottom*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*footer bottom */
+
+/*root*/
+:root {
+    --body-bg: #FFFFF;
+    --title-color: #5c62ec;
+    --content-color: #171718;
+}
+
+.dark {
+    --body-bg: #252526;
+    --title-color: #FFFFFF;
+    --content-color: #FFFFFF;
+}
+/*root*/
+
+/*body bg*/
+body {
+    background-color: var(--body-bg);
+}
+/*body bg*/
